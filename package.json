@@ -2,7 +2,8 @@
   "name": "time-travel",
   "version": "1.0.0",
   "description": "API for a fictional application",
-  "main": "index.ts",
+  "main": "./dir/index.js",
+  "type": "module",
   "scripts": {
     "start": "ts-node index.ts"
   },
@@ -20,10 +21,12 @@
     "@types/node": "^18.11.4",
     "env": "^0.0.2",
     "express": "^4.18.2",
-    "typescript": "^4.8.4"
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.4"
   }
 }
